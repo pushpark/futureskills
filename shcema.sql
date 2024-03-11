@@ -43,5 +43,4 @@ CREATE TABLE Product (
     created_at timestamp,
     modifies_at timestamp,
     deleted_ar timestamp,
-    FOREIGN KEY (CategoryID) REFERENCES Product_Category(CategoryID)
 );
